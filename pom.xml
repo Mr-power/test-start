@@ -10,6 +10,7 @@
     </parent>
     <groupId>com.study</groupId>
     <artifactId>study-lny</artifactId>
+    <name>app</name>
     <version>1.0</version>
 
     <profiles>
@@ -23,6 +24,7 @@
                 <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
                 <maven.compiler.source>1.8</maven.compiler.source>
                 <maven.compiler.target>1.8</maven.compiler.target>
+                <apollo.version>1.5.1</apollo.version>
             </properties>
         </profile>
     </profiles>
@@ -41,6 +43,11 @@
             <artifactId>lombok</artifactId>
             <version>1.18.22</version>
             <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>com.ctrip.framework.apollo</groupId>
+            <artifactId>apollo-client</artifactId>
+            <version>${apollo.version}</version>
         </dependency>
     </dependencies>
 
@@ -73,7 +80,8 @@
                 <artifactId>maven-deploy-plugin</artifactId>
                 <version>2.8.1</version>
                 <configuration>
-                    <altDeploymentRepository>internal.repo::default::file://${project.build.directory}/mvn-repo</altDeploymentRepository>
+                    <altDeploymentRepository>internal.repo::default::file://${project.build.directory}/mvn-repo
+                    </altDeploymentRepository>
                 </configuration>
             </plugin>
         </plugins>

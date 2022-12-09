@@ -1,0 +1,4 @@
+apollo.bootstrap.enabled: true
+
+logging:
+  config: classpath:logback-spring.xml

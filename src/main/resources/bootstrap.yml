@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: itl-material
+  apollo:
+    bootstrap:
+      enabled: true
