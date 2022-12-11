@@ -2,7 +2,7 @@
 
 <configuration>
 
-    <property name = "log" value ="/Users/tezign/Desktop/lny/applogs"/>
+    <property name = "log" value ="/data/logs/java/lny"/>
 
     <appender name = "console" class = "ch.qos.logback.core.ConsoleAppender">
         <encoder class = "ch.qos.logback.classic.encoder.PatternLayoutEncoder">
