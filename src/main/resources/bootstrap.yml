@@ -1,6 +1,6 @@
 spring:
   application:
-    name: itl-material
+    name: std-open-service
   apollo:
     bootstrap:
       enabled: true
