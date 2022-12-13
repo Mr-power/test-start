@@ -14,7 +14,7 @@ public class TestController {
 
     private final static Logger log = LoggerFactory.getLogger("lnyLogger");
 
-    @Value("${host.tezign-data-analysis-web.url}")
+    @Value("${study.test}")
     private  String test;
 
     @GetMapping("/biu")

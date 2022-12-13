@@ -1,6 +1,6 @@
 spring:
   application:
-    name: std-open-service
+    name: cms-platform-top
   apollo:
     bootstrap:
       enabled: true
