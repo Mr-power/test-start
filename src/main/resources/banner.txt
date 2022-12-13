@@ -12,3 +12,6 @@
                            █ █   █ █▄ █ █ █ █▀ ▀▀█
                            █ ▀▀▀▀▀ █ ▀▄▄▄ █▀▄▀█▄▄█
                            ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+-Dapollo.configService=http://10.254.2.165:32202
+-Dapp.id=cms-platform-top
+-Dapollo.bootstrap.namespaces=test.study,cms.parent
